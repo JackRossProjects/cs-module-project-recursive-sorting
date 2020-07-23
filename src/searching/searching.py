@@ -14,9 +14,9 @@ def binary_search(arr, target, start, end):
         # If the midpoint is less than the target, recurse though the values on the left side
         else:
             return binary_search(arr, target, mid + start, end)
-      else:
+    else:
         return -1
-
+'''
 
 # STRETCH: implement an order-agnostic binary search
 # This version of binary search should correctly find 
@@ -27,3 +27,4 @@ def binary_search(arr, target, start, end):
 def agnostic_binary_search(arr, target):
     # Your code here
 
+'''
